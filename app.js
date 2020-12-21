@@ -39,16 +39,55 @@ document.addEventListener("DOMContentLoaded", (e) => {
 })
 
 // Check for win
-// function checkForWin() {
-// const xSelection = playerX.forEach(item => {
-//     playerX.push(item.toString())
-//     console.log(playerX);
-// })
-// let win1 = [];
-// winCombos[0].forEach(items => {
-//     win1.push(items.toString())
-//     console.log(playerX);
-// }
+function checkForWin() {
+const xSelection = playerX.forEach(item => {
+    playerX.push(item.toString())
+    console.log(playerX);
+
+let win1 = [];
+winCombos[0].forEach(items => {
+    win1.push(items.toString())
+    console.log(win1);
+}
+let win2 = [];
+winCombos[0].forEach(items => {
+    win2.push(items.toString())
+    console.log(win2);
+}
+let win3 = [];
+winCombos[0].forEach(items => {
+    win3.push(items.toString())
+    console.log(win3);
+}
+let win4 = [];
+winCombos[0].forEach(items => {
+    win4.push(items.toString())
+    console.log(win4);
+}
+let win5 = [];
+winCombos[0].forEach(items => {
+    win5.push(items.toString())
+    console.log(win5);
+}
+let win6 = [];
+winCombos[0].forEach(items => {
+    win6.push(items.toString())
+    console.log(win6);
+}
+let win7 = [];
+winCombos[0].forEach(items => {
+    win7.push(items.toString())
+    console.log(win7);
+}
+let win8 = [];
+winCombos[0].forEach(items => {
+    win8.push(items.toString())
+    console.log(win8);
+})
+
+
+}
+
 
 // Checks for win upon each selection, determine what a win is
     // Compare winning combinations versus what Players have chosen
